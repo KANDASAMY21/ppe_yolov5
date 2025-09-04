@@ -2,6 +2,7 @@
 .git
 .cache
 .idea
+runs
 output
 coco
 storage.googleapis.com
@@ -11,6 +12,7 @@ data/samples/*
 *.jpg
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
+**/*.pt
 **/*.pth
 **/*.onnx
 **/*.engine
